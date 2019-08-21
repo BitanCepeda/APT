@@ -1,0 +1,10 @@
+#BlueJ class context
+comment0.target=Bd
+comment0.text=\r\n\ Clase\ encargada\ de\ la\ persistencia\ de\ los\ datos\ en\ la\ base\ de\ datos\r\n\ \r\n\ @author\ (CEPEDA)\ \r\n\ @version\ (1.0\ 19/8/2019)\r\n
+comment1.params=
+comment1.target=void\ conectar()
+comment1.text=\r\n\ M\u00E9todo\ para\ realizar\ la\ conexi\u00F3n\ de\ la\ base\ de\ datos\r\n
+comment2.params=
+comment2.target=void\ desconectar()
+comment2.text=\r\n\ M\u00E9todo\ para\ realizar\ la\ desconexi\u00F3n\ de\ la\ base\ de\ datos\r\n
+numComments=3
