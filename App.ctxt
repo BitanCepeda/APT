@@ -1,6 +1,6 @@
 #BlueJ class context
 comment0.target=App
-comment0.text=\r\n\ Clase\ principal\ encargada\ de\ la\ ejecuci\u00F3n\ del\ software\r\n\ \r\n\ @author\ (CEPEDA)\ \r\n\ @version\ (1.0\ 18/8/2019)\r\n
+comment0.text=\r\n\ Clase\ principal\ encargadaA\ de\ la\ ejecuci\u00F3n\ del\ software\r\n\ \r\n\ @author\ (CEPEDA)\ \r\n\ @version\ (1.0\ 18/8/2019)\r\n
 comment1.params=args
 comment1.target=void\ main(java.lang.String[])
 numComments=2

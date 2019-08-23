@@ -21,10 +21,17 @@ Scanner teclado=new Scanner(System.in);
 Scanner tecla=new Scanner(System.in);
 
 /**
+ * Constructor para iniciar tarea sin crearla
+ */
+public Tarea()
+{
+}
+
+/**
 * Agrega una Tarea
 *@param se requiere un usuario
 */
-public Tarea(Usuario usuario)
+public void Generar(Usuario usuario)
 {
     this.idUsuario=usuario.GetId();
     String resp;
@@ -66,6 +73,31 @@ public String getClasificacion()
 }
 
 /**
+* Retorna la fecha de inicio de la tarea
+*/
+public String getFechaInicio()
+{ 
+    return fechaInicio;
+}
+
+/**
+* Retorna la fecha de fin de la tarea
+*/
+public String getFechaFin()
+{ 
+    return fechaFin;
+}
+
+/**
+* Retorna el nro de ítems
+*/
+public int getNro()
+{ 
+    return nroItems;
+}
+
+
+/**
 * Retorna el porcentaje de desarrollo del proyecto
 */
 public double getAvance()
@@ -73,6 +105,13 @@ public double getAvance()
     return avance;
 }
 
+/**
+* Retorna el id del usuario
+*/
+public double getId()
+{
+    return idUsuario;
+}
 
 /**
 * Modifica el porcentaje de desarrollo de la tarea por items

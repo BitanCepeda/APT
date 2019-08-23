@@ -3,7 +3,7 @@ import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.BufferedReader;
 /**
- * Clase principal encargada de la ejecución del software
+ * Clase principal encargadaA de la ejecución del software
  * 
  * @author (CEPEDA) 
  * @version (1.0 18/8/2019)
@@ -124,6 +124,9 @@ public class App
                  usuario.Datos();
                  usuario.Crear();
                  condt=1;
+                 Interfaz inter;
+                 inter=new Interfaz();
+                 inter.menu(usuario);
              }
              else
              {
