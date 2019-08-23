@@ -14,7 +14,7 @@ public class Usuario extends Bd
     //Variables de datos personales del cliente
     private int id;
     private String cedula, nombre, apodo, ocupacion, estado, password, encrip;
-
+    
     //Variables de uso 
     private Scanner a= new Scanner(System.in);
     private Scanner b=new Scanner(System.in);
@@ -44,24 +44,6 @@ public class Usuario extends Bd
       {
           return id;
       }
-      
-      /**
-       * Devuelve el estado del usuario
-       */
-      public String GetEstado()
-      {
-          return estado;
-      }
-
-      
-      /**
-       * Devuelve el apodo del usuario
-       */
-      public String GetApodo()
-      {
-          return apodo;
-      }
-
 
       /**
        * Método de ingreso de los datos personales del usuario
